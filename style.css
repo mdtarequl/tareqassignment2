@@ -24,7 +24,7 @@ header {
 
 .left-side img {
     width: 40px;
-    /* Updated width */
+
     height: 30px;
     /* Updated height */
     margin-left: 10px;
@@ -511,30 +511,20 @@ span {
 
 .game-item {
     width: 200px;
-    /* Set the width of the box */
     height: 60px;
-    /* Set the height of the box */
     display: flex;
     align-items: center;
-    /* Center items vertically within the box */
     text-align: center;
-    /* Center the text inside the box */
-
     padding: 40px;
     border-radius: 30px;
-    /* Make the boxes circular with a border radius of 50px */
     background: #FFF;
-    /* Set a white background for the boxes */
+
 }
 
 .game-item img {
     width: 60px;
-    /* Adjust the image size as needed */
     height: 60px;
-    /* Adjust the image size as needed */
     border-radius: 50%;
-    /* Make the images circular */
-
     margin-right: 0px;
     margin-left: 30px;
 }
@@ -547,51 +537,31 @@ span {
 .section-10 {
     display: flex;
     justify-content: space-between;
-    /* Center items with equal gaps between them */
     max-width: 800px;
-    /* Adjust this based on your design needs */
     margin: 0 auto;
-    /* Center the section horizontally */
 
 }
 
 .section-10 .game-item {
     width: 243px;
-    /* Set the width of the box */
     height: 30px;
-    /* Set the height of the box */
-
-
     display: flex;
-    /* To align image and text horizontally */
     align-items: left;
-    /* Center items vertically within the box */
     text-align: left;
-    /* Center the text inside the box */
     flex: start;
     border-radius: 50px;
-    /* Make the boxes circular with a border radius of 50px */
     background: #FFF;
-    /* Set a white background for the boxes */
 }
 
 .section-10 .game-item img {
     width: 60px;
-    /* Adjust the image size as needed */
     height: 60px;
-    /* Adjust the image size as needed */
     border-radius: 50%;
-    /* Make the images circular */
-
     margin-right: 0px;
-    /* Add some spacing between the image and the text */
 }
 
 .section-10 .game-item p {
     flex: 1;
-    /* Allow the text to expand within the box */
-
-
 }
 
 .end {
@@ -841,11 +811,147 @@ span {
         grid-template-columns: repeat(3, 1fr);
     }
 
-    .small-logo div{
+    .small-logo div {
         background-color: #FFF;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        
+
+    }
+
+    .end-last {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .copyright {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+/* larger device*/
+@media only screen and (min-width: 576px) and (max-width: 991px) {
+    header {
+        flex-direction: column;
+    }
+
+    .left-side,
+    .right-side {
+        flex-direction: column;
+
+    }
+
+    /* header media quary end */
+    .section-2 {
+        flex-direction: column-reverse;
+    }
+
+    .section2-rightside img {
+        width: 100%;
+    }
+
+    .section2-leftside {
+        fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+    }
+
+    /* section 2 will be eng here */
+
+    .section-3 {
+        flex-direction: column-reverse;
+    }
+
+    .section3-leftside img {
+        width: 50%;
+        height: 100%;
+    }
+
+    /*section 3 will be started from here */
+    .section4-img {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 79%;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .text-column h1 {
+        width: 100%;
+        height: auto;
+    }
+
+    . .text-column p {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .image-column img {
+        width: 90%;
+        height: auto;
+    }
+
+    .section-6 {
+        flex-direction: column-reverse;
+    }
+
+    .section-8 {
+        flex-direction: column;
+    }
+
+    .section8-left {
+        width: 100%;
+    }
+
+    .section8-content {
+        width: 50%;
+    }
+
+    .section8-right img {
+        width: 70%;
+    }
+
+    .game-item img {
+        flex-direction: row;
+    }
+
+    .section-9 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0%;
+        padding: 0;
+        max-width: 350px;
+        justify-content: flex-start;
+    }
+
+    .section-10 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: flex-start;
+        margin: 0%;
+        padding: 0;
+        max-width: 350px;
+
+    }
+
+    .footer {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .end-item {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .small-logo div {
+        background-color: #FFF;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
     }
 
     .end-last {
