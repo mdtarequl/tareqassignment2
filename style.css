@@ -420,8 +420,8 @@ span {
     justify-content: space-between;
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
     width: 100%;
-  
-   
+
+
 }
 
 .section8-right img {
@@ -487,20 +487,232 @@ span {
     padding: 20px 40px;
     margin-top: 30px;
     margin-left: 90px;
+    margin-bottom: 40px;
 }
 
 .btn-8 button {
-   
-font-size: 20px;
 
-font-weight: 600;
-text-decoration: none;
+    font-size: 20px;
 
+    font-weight: 600;
+    text-decoration: none;
 
-    
 }
 
+/* secton 9 start from here */
 
+.section-9 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.game-item {
+    width: 200px;
+    /* Set the width of the box */
+    height: 60px;
+    /* Set the height of the box */
+    display: flex;
+    align-items: center;
+    /* Center items vertically within the box */
+    text-align: center;
+    /* Center the text inside the box */
+
+    padding: 40px;
+    border-radius: 30px;
+    /* Make the boxes circular with a border radius of 50px */
+    background: #FFF;
+    /* Set a white background for the boxes */
+}
+
+.game-item img {
+    width: 60px;
+    /* Adjust the image size as needed */
+    height: 60px;
+    /* Adjust the image size as needed */
+    border-radius: 50%;
+    /* Make the images circular */
+
+    margin-right: 0px;
+    margin-left: 30px;
+}
+
+.game-item p {
+    flex: 1;
+    width: 100%;
+}
+
+.section-10 {
+    display: flex;
+    justify-content: space-between;
+    /* Center items with equal gaps between them */
+    max-width: 800px;
+    /* Adjust this based on your design needs */
+    margin: 0 auto;
+    /* Center the section horizontally */
+
+}
+
+.section-10 .game-item {
+    width: 243px;
+    /* Set the width of the box */
+    height: 30px;
+    /* Set the height of the box */
+
+
+    display: flex;
+    /* To align image and text horizontally */
+    align-items: left;
+    /* Center items vertically within the box */
+    text-align: left;
+    /* Center the text inside the box */
+    flex: start;
+    border-radius: 50px;
+    /* Make the boxes circular with a border radius of 50px */
+    background: #FFF;
+    /* Set a white background for the boxes */
+}
+
+.section-10 .game-item img {
+    width: 60px;
+    /* Adjust the image size as needed */
+    height: 60px;
+    /* Adjust the image size as needed */
+    border-radius: 50%;
+    /* Make the images circular */
+
+    margin-right: 0px;
+    /* Add some spacing between the image and the text */
+}
+
+.section-10 .game-item p {
+    flex: 1;
+    /* Allow the text to expand within the box */
+
+
+}
+
+.end {
+    margin-top: 50px;
+    background-color: #0B0223;
+}
+
+.footer-head {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-head h3 {
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 10px;
+    color: rgba(255, 255, 255, 0.60);
+
+}
+
+.finish {
+    background-color: #0B0223;
+}
+
+.end-item {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+
+
+
+}
+
+.end-item li {
+    color: #ffffff;
+
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    padding: 20px;
+    list-style: none;
+}
+
+.end-item a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.small-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: 220px;
+    margin-right: 220px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #FFF;
+}
+
+.small-logo img {
+    width: 57.13px;
+    height: 40px;
+
+}
+
+.end-last {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    color: #FFF;
+
+}
+
+.end-last div {
+    margin-left: 70px;
+    color: rgba(255, 255, 255, 0.60);
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.h3>span {
+    color: #FF42A5, #FF42A5;
+}
+
+.copyright {
+
+    margin-left: 150px;
+    color: rgba(255, 255, 255, 0.60);
+
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    background-color: #0B0223;
+}
+
+.box {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
 
 
 
@@ -579,17 +791,71 @@ text-decoration: none;
     .section-6 {
         flex-direction: column-reverse;
     }
-    .section-8{
+
+    .section-8 {
         flex-direction: column;
     }
-    .section8-left{
+
+    .section8-left {
         width: 100%;
     }
-    .section8-content{
+
+    .section8-content {
         width: 50%;
     }
-    .section8-right img{
+
+    .section8-right img {
         width: 70%;
+    }
+
+    .game-item img {
+        flex-direction: row;
+    }
+
+    .section-9 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0%;
+        padding: 0;
+        max-width: 350px;
+        justify-content: flex-start;
+    }
+
+    .section-10 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: flex-start;
+        margin: 0%;
+        padding: 0;
+        max-width: 350px;
+
+    }
+
+    .footer {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .end-item {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .small-logo div{
+        background-color: #FFF;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+
+    .end-last {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .copyright {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 
 }
